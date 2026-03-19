@@ -15,9 +15,6 @@
 
   
 
-window.onload = function() {
-    console.log("Page entièrement chargée !");
-};
-Commentaire();
+window.onload = Commentaire();
   
 })();

@@ -74,7 +74,7 @@
 
 
     // Attente de l'élément cible via MutationObserver
-    const observer = new MutationObserver(() => {
+   /* const observer = new MutationObserver(() => {
         const container = document.getElementsByClassName("ng-star-inserted");
         if (container) {
             injectBackground();
@@ -82,8 +82,10 @@
         }
     });
 
-    observer.observe(document.body, { childList: true, subtree: true });
-
+    observer.observe(document.body, { childList: true, subtree: true });*/
+  
+    //Attente chargement de la page
+    window.onload = injectBackground();
 
 
 
